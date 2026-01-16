@@ -51,7 +51,7 @@ export const llmExplainSingle = (card: string): Promise<any> => {
   return new Promise((resolve, reject) => {
     axios
       .post(
-        '/v1/workflow/run',
+        'https://api.coze.cn/v1/workflow/run',
         {
           parameters: {
             card: card,
