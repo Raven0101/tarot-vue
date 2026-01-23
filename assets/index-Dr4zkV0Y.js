@@ -96,9 +96,12 @@ Please report this to https://github.com/markedjs/marked.`,e){let r="<p>An error
   [${n[5].info.name}] ${n[5].discription}
   [${n[1].info.name}] ${n[1].discription}
   [${n[6].info.name}] ${n[6].discription} 
-  请结合牌阵逻辑、牌与牌之间的互动、正逆位影响，以及用户的问题背景，给出：
-  1. 整体局势的概括；
-  2. 每张牌在对应位置上的具体解读；
-  3. 牌阵中显现的关键主题、潜在机会或警示；
-  4. 针对用户问题的建议或行动指引；
-  5. 保持语气温和、鼓励，避免绝对化断言（如“一定会失败”），强调自由意志与可能性。`;wh(g).then(d=>{l.value=!1,console.log("res :>> ",d),r.value=V(d)}).catch(d=>{l.value=!1,r.value="不好意思系统开小差了，请稍后再试～"})}return(g,d)=>(Je(),ct(ke,null,[Zl(Qe("input",{type:"text","onUpdate:modelValue":d[0]||(d[0]=b=>o.value=b),placeholder:"请输入要占卜的问题"},null,512),[[Ac,o.value]]),n.length!=i.value?(Je(),ct("div",np,Bt(n.map(b=>b.info.name).join(" ")),1)):dr("",!0),Qe("div",rp,[(Je(),ct(ke,null,As(7,b=>Qe("div",{key:b,class:"hexagram-card",style:Qt(u(b-1))},Bt(n.length>b-1?n[b-1].info.name:""),5)),64))]),n.length<i.value?(Je(),ct("div",sp,[d[1]||(d[1]=Qe("div",null,"点击选中卡牌，再次点击抽卡，向右滑动查看更多卡牌",-1)),Qe("div",ip,[(Je(!0),ct(ke,null,As(Bi(t),(b,y)=>(Je(),ct("div",{class:jn(`card-single ${s.value==b?"hold":""}`),key:y,style:Qt({left:y*50+"px","z-index":y+2}),onClick:k=>a(b,y)},Bt(),15,op))),128))])])):dr("",!0),n.length==i.value?(Je(),ct("button",{key:2,onClick:h,disabled:l.value},Bt(l.value?"解读中……":"解读"),9,lp)):dr("",!0),Qe("div",{class:"explain",innerHTML:r.value},null,8,ap)],64))}}),up=(e,t)=>{const n=e.__vccOpts||e;for(const[r,s]of t)n[r]=s;return n},fp=up(cp,[["__scopeId","data-v-3c336880"]]);Ec(fp).mount("#app");
+  请结合牌阵逻辑、牌与牌之间的互动、正逆位影响，以及用户的问题背景，以**占卜师口吻**回应，包含以下内容：
+  1. **整体能量场的描绘**：用意象语言概括当前局势（如“风与火交织”“水下暗涌”）；
+  2. **逐位解读**：说明每张牌在其位置上的象征意义，注意牌与牌之间的呼应（如冲突、支持、转化）；
+  3. **关键启示**：指出牌阵中浮现的核心主题、隐藏机会或需警惕的能量；
+  4. **灵性指引**：  
+    → 不直接给出“建议”或“行动步骤”，  
+    → 而是**通过牌面象征，暗示可能的方向、内在召唤或能量趋势**，  
+    → 例如：“圣杯二在此低语：关系的桥梁需要双方共同浇灌” 或 “宝剑骑士疾驰而来——行动的时机正在迫近，但请先看清风向”；
+  5. **语气要求**：温和、神秘、充满尊重，避免绝对化断言（不说“一定会”），强调**自由意志与多维可能性**。结尾可附一句祝福或冥想式结语（如“愿牌灵之光照亮你的路”）。`;wh(g).then(d=>{l.value=!1,console.log("res :>> ",d),r.value=V(d)}).catch(d=>{l.value=!1,r.value="不好意思系统开小差了，请稍后再试～"})}return(g,d)=>(Je(),ct(ke,null,[Zl(Qe("input",{type:"text","onUpdate:modelValue":d[0]||(d[0]=b=>o.value=b),placeholder:"请输入要占卜的问题"},null,512),[[Ac,o.value]]),n.length!=i.value?(Je(),ct("div",np,Bt(n.map(b=>b.info.name).join(" ")),1)):dr("",!0),Qe("div",rp,[(Je(),ct(ke,null,As(7,b=>Qe("div",{key:b,class:"hexagram-card",style:Qt(u(b-1))},Bt(n.length>b-1?n[b-1].info.name:""),5)),64))]),n.length<i.value?(Je(),ct("div",sp,[d[1]||(d[1]=Qe("div",null,"点击选中卡牌，再次点击抽卡，向右滑动查看更多卡牌",-1)),Qe("div",ip,[(Je(!0),ct(ke,null,As(Bi(t),(b,y)=>(Je(),ct("div",{class:jn(`card-single ${s.value==b?"hold":""}`),key:y,style:Qt({left:y*50+"px","z-index":y+2}),onClick:k=>a(b,y)},Bt(),15,op))),128))])])):dr("",!0),n.length==i.value?(Je(),ct("button",{key:2,onClick:h,disabled:l.value},Bt(l.value?"解读中……":"解读"),9,lp)):dr("",!0),Qe("div",{class:"explain",innerHTML:r.value},null,8,ap)],64))}}),up=(e,t)=>{const n=e.__vccOpts||e;for(const[r,s]of t)n[r]=s;return n},fp=up(cp,[["__scopeId","data-v-d4c36e46"]]);Ec(fp).mount("#app");
